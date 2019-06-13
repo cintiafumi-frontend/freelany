@@ -1,6 +1,6 @@
 /* -------------------- FOOTER --------------------  */
 .site-footer {
-  background-color:#26272b;
+  background-color:#240028;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -149,8 +149,8 @@
   background-color:#007bb6
 }
 
-.social-icons a.dribbble:hover {
-  background-color:#ea4c89
+.social-icons a.meetup:hover {
+  background-color:#FD5259
 }
 
 @media (max-width:767px){
