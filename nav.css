@@ -2,8 +2,8 @@
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
-  position: relative;
+  background-color: #89009b;
+  z-index: 9999;
 }
 
 .nav > .nav-header {
@@ -70,9 +70,10 @@
 
   .nav > .nav-links {
     position: absolute;
+    z-index: 9999;
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: #89009b;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -90,7 +91,7 @@
   }
   
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    min-height: calc(100vh - 380px);
     overflow-y: auto;
   }
 }
